@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #fff;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #231f20;
+    font-weight: 600;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: #231f20;
+    font-weight: 400;
+}
+
+section{
+    padding: 100px;
+}
+
+.home{
+    height: 100vh;
+}
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+
+.row .col50 .imgBx{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+}
+
+.row .col50 .imgBx img{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.row .col50 .content{
+    position: relative;
+    top: 25%;
+}
+
+.row .col50 .content h1{
+    font-size: 4em;
+    font-weight: 500;
+    color: #231f20;
+    margin-bottom: 10px;
+}
+
+.row .col50 .content p{
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #231f20;
+}
+
+.btn-first{
+    font-size: 1em;
+    color: #fff;
+    background: #00bfa6;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.btn-second{
+    font-size: 1em;
+    color: #00bfa6;
+    background: #d5efea;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.partners{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #3f3d56;
+}
+
+.partners .title-partners{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.partners .title-partners h1{
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.partners .logo-partners{
+    position: relative;
+    display: block;
+}
+
+.partners .logo-partners img{
+    position: relative;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleText {
+    color: #231f20;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.titleText span{
+    color: #00bfa6;
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.row .col50 .country{
+    position: relative;
+    display: inline-block;
+    top: 35%;
+}
+
+.row .col50 .country a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-right: 70px;
+    color: #231f20;
+}
+
+.row .col50 .country a i{
+    margin: 30px 20px;
+    color: #00bfa6;
+}
+
+.container{
+	max-width: 1300px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #00bfa6;
+    padding: 70px 0;
+}
+
+.footer-col{
+   width: 15%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #fff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 300;
+	color: #fff;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a i{
+    margin-right: 20px;
+}
+
+.footer-col .social-links a:hover{
+	color: #231f20;
+}
